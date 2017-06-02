@@ -1,0 +1,9 @@
+[package]
+name = "server"
+version = "0.1.0"
+authors = ["wsc <386180127@qq.com>"]
+
+[dependencies]
+sapper = { git="https://github.com/hyperium/hyper.git"  }
+diesel = "0.13.0"
+r2d2-diesel = "0.13.0"
